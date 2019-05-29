@@ -1,6 +1,10 @@
 # Portfolio
 Week 10 Homework - Update Portfolio and other Repos in order to build toward being employer competitive
 
+## INCOMPLETE - To Do
+
+I'm still working on the content, lots of lorem ipsum
+
 ## Objective
 
 ## Assignment
