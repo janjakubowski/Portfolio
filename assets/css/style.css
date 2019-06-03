@@ -1,24 +1,45 @@
 /* style.css : profile stylesheet */
 
 body {
-    background-image: url(./../images/mosaic.png);
+    background-image: url(./../images/grey_wash_wall.png);
   }
 
+p {
+  font-size: 1.25rem;
+}
+
+.container {
+  background-color: whitesmoke;
+}
+
 .main-body {
-    background-color: #ccc;
+    /* background-color: #cccccc; */
+    margin-top: 0;
+}
+
+.my-nav {
+  margin-bottom: 0;
+}
+
+.my-name {
+  /* background-color: #00064C; */
+  /* color: #cccccc; */
 }
 
 .navbar-toggler {
-    background-color: darkslateblue;
+    
     margin: 0 20px 0 0;
   }
   
   .navbar-toggler-icon {
-    background-color: #ccc;
+    background-color: black;
+    color: whitesmoke;
+    /* background-color: #ccc; */
   }
   
   .nav-link {
-    color: darkslateblue;
+    
+    /* color: darkslateblue; */
   }
 
 /* END OF FILE */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jan Jakubowski</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid my-nav">
+        <div class="container" >
+        <!-- <div class="container" style="background: #00064C"> -->
+            <nav class="navbar navbar-expand-lg">
+                <h2 class="my-name">Jan Jakubowski</h2>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/janjakubowski">
+                              LinkedIn</a>
+                                <!-- <i class="fas fa-linkedin  fa-3x"></i></a> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://github.com/janjakubowski/janjakubowski.github.io">GitHub</a>
+                                <!-- <i class="fas fa-linkedin  fa-3x"></i></a> -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>    
+
+            
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron" >
+            <h1 class="display-4 text-center">Contact Me</h1>
+            <h4 class="text-center">email: jan.jakubowski.us@ieee.org</h4>
+            <h4 class="text-center">mobile: +1-603-630-6045</h4>
+
+            <a class="btn btn-primary float-left" href="assets/pdf/jan-jakubowski-resume-senior-IT-architect.pdf">PDF formatted Resume</a>
+
+            <button class="btn btn-primary float-right" data-toggle="modal" data-target="#modalSendMessage">Send Me A Message</button>
+
+        </div>
+        <!-- end of Jumbotron -->
+
+    <!--Modal: modalSendMessage  -->
+    <div class="modal fade" id="modalSendMessage" tabindex="-1" role="dialog">
+    <!-- <div class="modal fade" id="modalSendMessage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" -->
+    <!-- aria-hidden="true"> -->
+    <div class="modal-dialog modal-notify modal-danger" role="document">
+      <!--Content-->
+      <div class="modal-content text-center">
+        <!--Header-->
+        <div class="modal-header justify-content-center">
+            <h3 class="heading">Send Me A Message</h3>
+        </div>
+        <div>
+            <p style="color: #ff0000">This function is currently disabled. Please e-mail, text message or call me.</p>
+        </div>
+        <!--Body-->
+        <div class="modal-body">
+            <form class="request-contact-form">
+                <div class="form-group">
+                  <label for="name-input">Your Name</label>
+                  <input  id="name-input" class="form-control" placeholder="Jane Doe" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="email-input">Your E-mail</label>
+                  <input  id="email-input" class="form-control" placeholder="jane.doe@example.com" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="subject-input">Subject</label>
+                  <input  id="subject-input" class="form-control" placeholder="Reason for reaching out to me" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="comment-input">Comment</label>
+                  <input  id="comment-input" class="form-control" placeholder="Any additional details" type="text">
+                </div>
+            </form>
+        </div>
+        <!--Footer-->
+        <div class="modal-footer flex-center">
+          <!-- <button class="btn btn-primary waves-effect" disabled data-dismiss="modal" id="add-train-btn">Submit</button> -->
+          <button class="btn btn-danger waves-effect" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal: modalAddTrain -->
+
+    </div>
+            
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

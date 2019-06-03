@@ -1,9 +1,12 @@
 # Portfolio
 Week 10 Homework - Update Portfolio and other Repos in order to build toward being employer competitive
 
-## INCOMPLETE - To Do
+## INCOMPLETE - ISSUES - TO DO
 
-I'm still working on the content, lots of lorem ipsum
+1. ISSUE: One of the carosuels on the HPC is not working properly.
+2. ISSUE: Plain Jane CSS, needs styling.
+3. ISSUE: Only 2 links to portfolio, needs more.
+4. Content is incomplete, lots of lorem ipsum
 
 ## Objective
 
@@ -34,6 +37,10 @@ Although we have created three previous versions of our portfolio, using what we
 * Bootstrap 4
 
     * navbar
+    * carosuel
+    * jumbotron
+    * cards
+    * grid for mobile-readiness
 
 ## Personal Challenges
 
